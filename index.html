@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logan Lopez - Développeur Web Junior</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nobile&family=Quicksand&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nobile&family=PT+Sans+Narrow&family=Quicksand&display=swap" rel="stylesheet"> 
+    <meta name="description" content="Portfolio - Lopez Logan - Développeur Web / Web mobile ">
+</head>
+<body>
+      <div class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Lopez Logan</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Compétences</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#">
+                    Télécharger mon CV
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+        <div class="main">
+          <h1 class="main__title">Lopez Logan</h1>
+          <h2 class="main__job">Développeur Web Junior</h2> <h2 class="main__job main__job--center">Web Mobile</h2>
+          <p><a href="#contact-form" class="main__contact-btn">Contactez-moi</a></p>
+        </div>
+        <section class="projects" id="projects">
+          <h2 class="projects__title">Projets</h2>
+          <div class="projects__box --tl">
+            <p class="projects__subtitle">Showtrack</p>
+            <div class="projects__box__contents --tl"><a href="#"><img class="img-size" src="img/HTML-CSS_TP-showtrack.png" alt="Image qui redirige vers le TP Showtrack"></a></div>
+            <p class="projects__date">15/03/2021</p>
+          </div>
+          <div class="projects__box --bl">
+            <p class="projects__subtitle">Projet 2</p>
+            <div class="projects__box__contents --bl"><a href="#"><img class="img-size" src="img/20494859.jpg" alt="Lien vers un futur projet"></a></div>
+            <p class="projects__date">xx/xx/xxxx</p>
+          </div>
+          <div class="projects__box --bl">
+            <p class="projects__subtitle">Projet 3</p>
+            <div class="projects__box__contents --bl"><a href="#"><img class="img-size" src="img/20494859.jpg" alt="Lien vers un futur projet"></a></div>
+            <p class="projects__date">xx/xx/xxxx</p>
+          </div>
+          <div class="projects__box --tl">
+            <p class="projects__subtitle">Projet 4</p>
+            <div class="projects__box__contents --tl"><a href="#"><img class="img-size" src="img/20494859.jpg" alt="Lien vers un futur projet"></a></div>
+            <p class="projects__date">xx/xx/xxxx</p>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="skills__title">Compétences</h2>
+          <h3 class="skills__subtitle">Outils</h3>
+          <p class="skills__contents">Visual Studio Code - Linux (Debian10)</p>
+          <h3 class="skills__subtitle">Langages</h3>
+          <p class="skills__contents">HTML5 - CSS - JavaScript - NodeJS</p>
+          <p class="skills__contents">Php - React Native</p>
+
+        </section>
+          <section class="contact" id="contact">
+            <h2 class="contact__title" id="contact-form">Contact</h2>
+            <h3 class="contact__subtitle">Téléphone</h3>
+            <p class="contact__contents">07.81.24.25.70</p>
+            <h2 class="contact__subtitle">OU</h2>
+            <form class="contact__form" method="POST">
+              <div>
+                <input class="contact__form__box" type="text" id="name" name="user_name" placeholder="Nom">
+              </div>
+              <div>
+                <input class="contact__form__box" type="email" id="mail" name="user_mail" placeholder="Adresse mail">
+              </div>
+              <div>
+                <textarea class="contact__form__box" name="user_message" id="msg" placeholder="Message"></textarea>
+              </div>
+              <button class="contact__form__btn" type="submit">Envoyer</button>
+            </form>
+        </section>
+        <footer>
+          <div class="footer__contact">
+            <a href="https://github.com/Loganlpzim"><img src="img/github.svg" alt="image lien vers github logan lpzim" id="footerImg"></a>
+            <a href="https://www.linkedin.com/in/logan-lopez-5b6a1620b/"><img src="img/linkedin.svg" alt="image lien vers linkedin logan lopez"></a>
+          </div>
+          <p class="footer__contents">Copyright 2021 - Lopez Logan</p>
+        </footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
