@@ -1725,16 +1725,12 @@ footer {
     text-align: center;
    }
   .navbar {
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
     padding-right: 18%;
   }  
   .main {
-  width: 70%;
+  width: 100%;
   height: 528px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  margin-left: 15%;
   margin-bottom: 40px;
   background-color: #65743A; }
 
@@ -1768,9 +1764,7 @@ a {
   color: #FFECD1; }
 
 .projects {
-  width: 70%;
-  margin-left: 15%;
-  border-radius: 30px;
+  width: 100%;
   height: 411px;
   margin-bottom: 40px;
   background-color: #65743A; }
@@ -1824,9 +1818,7 @@ a {
   color: #FF7d00; }
 
 .skills {
-  width: 70%;
-  margin-left: 15%;
-  border-radius: 30px;
+  width: 100%;
   height: 365px;
   margin-bottom: 40px;
   background-color: #65743A; }
@@ -1839,15 +1831,14 @@ a {
   text-align: center; }
 
 .contact {
-  width: 70%;
-  margin-left: 15%;
-  border-radius: 30px;
+  width: 100%;
   height: 365px;
   margin-bottom: 40px;
   background-color: #65743A; }
 
-.contact__subtitle {
-  text-align: center; }
+.contact__title {
+  text-align: center;
+  margin-bottom: 50px; }
 
 .contact__contents {
   text-align: center; }
@@ -1859,8 +1850,8 @@ a {
   width: 70%; }
 
 .contact__form__box {
-  width: 33%;
-  margin-left: 600px;
+  width: 66%;
+  margin-left: 400px;
   border: 1px #FFECD1 solid;
   border-radius: 6px;
   margin-bottom: 5px;
@@ -1868,7 +1859,7 @@ a {
 
 .contact__form__btn {
   width: 190px;
-  margin: 10px 660px;
+  margin: 10px 600px;
   border-radius: 6px;
   border: 1px #FFECD1 solid;
   background-color: #65743A;
