@@ -1851,7 +1851,7 @@ a {
 
 .contact__form__box {
   width: 33%;
-  margin-left: 800px;
+  margin-left: 700px;
   border: 1px #FFECD1 solid;
   border-radius: 6px;
   margin-bottom: 5px;
@@ -1859,7 +1859,7 @@ a {
 
 .contact__form__btn {
   width: 190px;
-  margin: 10px 800px;
+  margin: 10px 850px;
   border-radius: 6px;
   border: 1px #FFECD1 solid;
   background-color: #65743A;
