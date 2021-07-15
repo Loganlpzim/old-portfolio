@@ -143,3 +143,309 @@ footer {
 .footer__contents {
     text-align: center;
 }
+
+@media screen and (min-width: 712px) {
+    .navbar {
+      background-color: #65743A;
+      text-align: right; }
+    
+    .navbar-toggler {
+      margin-left: 488px; }
+    
+    h1, h2, h3, p {
+      color: #FFECD1; }
+    
+    .main {
+      width: 100%;
+      height: 528px;
+      margin-bottom: 40px;
+      background-color: #65743A; }
+    
+    .main__title {
+      flex-wrap: wrap;
+      text-align: center;
+      width: 190px;
+      height: 180px;
+      font-size: 60px;
+      margin: 0 auto;
+      margin-bottom: 25px; }
+    
+    .main__job {
+      font-size: 22px;
+      margin: 0 auto;
+      width: 260px; }
+      .main__job.main__job--center {
+        text-align: center; }
+    
+    .main__contact-btn {
+      display: block;
+      border: 1px solid #FFECD1;
+      border-radius: 10px;
+      padding: 5px;
+      width: 155px;
+      margin: 0 auto;
+      font-size: 22px;
+      margin-top: 50px; }
+    
+    a {
+      color: #FFECD1; }
+    
+    .projects {
+      width: 100%;
+      height: 411px;
+      margin-bottom: 40px;
+      background-color: #65743A; }
+    
+    .projects__box {
+      display: inline-block;
+      width: 135px;
+      height: 130px;
+      text-align: center; }
+    
+    .img-size {
+      height: 100%;
+      width: 100%; }
+    
+    .projects__box__contents {
+      width: 150px;
+      height: 160px;
+      border: 1px solid; }
+      .projects__box__contents.--tl {
+        margin-left: 25px; }
+      .projects__box__contents.--bl {
+        margin-left: 25px; }
+    
+    .projects__subtitle {
+      padding: 0;
+      margin: 0;
+      font-size: 16px;
+      margin-left: 60px; }
+    
+    .projects__date {
+      margin: 0;
+      padding: 0;
+      margin-left: 60px; }
+    
+    .projects__title, .skills__title, .contact__title {
+      text-align: center;
+      height: 35px;
+      margin: 0;
+      color: #FF7d00; }
+    
+    .skills {
+      width: 100%;
+      height: 365px;
+      margin-bottom: 40px;
+      background-color: #65743A; }
+    
+    .skills__subtitle {
+      text-align: center;
+      padding-top: 30px; }
+    
+    .skills__contents {
+      text-align: center; }
+    
+    .contact {
+      width: 100%;
+      height: 365px;
+      margin-bottom: 40px;
+      background-color: #65743A; }
+    
+    .contact__subtitle {
+      text-align: center; }
+    
+    .contact__contents {
+      text-align: center; }
+    
+    .contact__form {
+      display: block;
+      margin: 0 70px; }
+    
+    .contact__form__box {
+      width: 220px;
+      border: 1px #FFECD1 solid;
+      border-radius: 6px;
+      margin-bottom: 5px;
+      margin-left: 190px;
+      color: #65743A; }
+    
+    .contact__form__btn {
+      width: 190px;
+      margin: 10px 15px;
+      margin-left: 205px;
+      border-radius: 6px;
+      border: 1px #FFECD1 solid;
+      background-color: #65743A;
+      color: #FFECD1; }
+    
+    footer {
+      background-color: #65743A;
+      padding-top: 40px;
+      height: 100px;
+      margin: 0; }
+    
+    .footer__contents {
+      text-align: center; }
+  }
+  #footerImg {
+    margin-left: 150px;
+    margin-right: 5px;
+  }
+  @media screen and (min-width: 1124px) {
+    .navbar-toggler {
+      text-align: center;
+     }
+    .navbar {
+      width: 100%;
+      padding-right: 18%;
+    }  
+    .main {
+    width: 100%;
+    height: 528px;
+    margin-bottom: 40px;
+    background-color: #65743A; }
+  
+  .main__title {
+    flex-wrap: wrap;
+    text-align: center;
+    width: 190px;
+    height: 180px;
+    font-size: 60px;
+    margin: 0 auto;
+    margin-bottom: 25px; }
+  
+  .main__job {
+    font-size: 22px;
+    margin: 0 auto;
+    width: 260px; }
+    .main__job.main__job--center {
+      text-align: center; }
+  
+  .main__contact-btn {
+    display: block;
+    border: 1px solid #FFECD1;
+    border-radius: 10px;
+    padding: 5px;
+    width: 155px;
+    margin: 0 auto;
+    font-size: 22px;
+    margin-top: 50px; }
+  
+  a {
+    color: #FFECD1; }
+  
+  .projects {
+    width: 100%;
+    height: 411px;
+    margin-bottom: 40px;
+    background-color: #65743A; }
+  
+  .projects__box {
+    display: inline-block;
+    width: 300px;
+    height: 290px;
+    padding-left: 5%;
+    text-align: center; }
+    .projects__box.--tl {
+      margin-top: 20px;
+      margin-left: 30px; }
+    .projects__box.--bl {
+      margin-top: 40px;
+      margin-left: 30px; }
+    .projects__box.--br {
+      margin-top: 30px;
+      margin-left: 60px; }
+  
+  .img-size {
+    height: 100%;
+    width: 100%; }
+  
+  .projects__box__contents {
+    width: 200px;
+    height: 200px;
+    border: 1px solid; }
+    .projects__box__contents.--tl {
+      margin-left: 25px; }
+    .projects__box__contents.--bl {
+      margin-left: 25px; }
+  
+  .projects__subtitle {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    margin-left: 75px;
+    margin-bottom: 5px;
+    font-size: 16px; }
+  
+  .projects__date {
+    margin: 0;
+    margin-left: 90px;
+    padding: 0; }
+  
+  .projects__title, .skills__title, .contact__title {
+    text-align: center;
+    height: 35px;
+    margin: 0;
+    color: #FF7d00; }
+  
+  .skills {
+    width: 100%;
+    height: 365px;
+    margin-bottom: 40px;
+    background-color: #65743A; }
+  
+  .skills__subtitle {
+    text-align: center;
+    padding-top: 30px; }
+  
+  .skills__contents {
+    text-align: center; }
+  
+  .contact {
+    width: 100%;
+    height: 365px;
+    margin-bottom: 40px;
+    background-color: #65743A; }
+  
+  .contact__title {
+    text-align: center;
+    margin-bottom: 50px; }
+  
+  .contact__contents {
+    text-align: center; }
+  
+  .contact__form {
+    display: block;
+    padding-right: 100px;
+    margin: 0;
+    width: 70%; }
+  
+  .contact__form__box {
+    width: 66%;
+    margin-left: 400px;
+    border: 1px #FFECD1 solid;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    color: #65743A; }
+  
+  .contact__form__btn {
+    width: 190px;
+    margin: 10px 600px;
+    border-radius: 6px;
+    border: 1px #FFECD1 solid;
+    background-color: #65743A;
+    color: #FFECD1; }
+  }
+  .footer__contact img {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 30px; }
+    #footerImg {
+      margin-left: 48%;
+      margin-right: 5px;
+    }
+  footer {
+    width: 100%;
+    height: 150px;}
