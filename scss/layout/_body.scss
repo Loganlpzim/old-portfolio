@@ -405,20 +405,24 @@ footer {
     width: 100%;
     height: 365px;
     margin-bottom: 40px;
-    background-color: #65743A; }
+    background-color: #65743A; 
+  }
   
   .contact__title {
     text-align: center;
-    margin-bottom: 50px; }
+    margin-bottom: 50px; 
+  }
   
   .contact__contents {
-    text-align: center; }
+    text-align: center; 
+  }
   
   .contact__form {
     display: block;
     padding-right: 100px;
     margin: 0;
-    width: 70%; }
+    width: 70%; 
+  }
   
   .contact__form__box {
     width: 40%;
@@ -426,7 +430,8 @@ footer {
     border: 1px #FFECD1 solid;
     border-radius: 6px;
     margin-bottom: 5px;
-    color: #65743A; }
+    color: #65743A; 
+  }
   
   .contact__form__btn {
     width: 190px;
@@ -434,19 +439,21 @@ footer {
     border-radius: 6px;
     border: 1px #FFECD1 solid;
     background-color: #65743A;
-    color: #FFECD1; }
+    color: #FFECD1; 
   }
   .footer__contact img {
     display: inline-block;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
-    max-width: 30px; }
-    &#footerImg {
-      margin-left: 48%;
-      margin-right: 5px;
-    }
+    max-width: 30px; 
+  }
+  #footerImg {
+    margin-left: 48%;
+    margin-right: 5px;
+  }
   footer {
     width: 100%;
     height: 150px;
   }
+}
